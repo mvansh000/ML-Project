@@ -10,6 +10,25 @@ This project predicts Customer Lifetime Value (LTV) using RFM analysis and XGBoo
 - `models/`: Saved models
 - `docs/`: Documentation
 
+ML-Project/
+├── data/
+│   ├── online_retail_II.csv
+│   └── tx_merge_clustered.csv
+├── notebooks/
+│   ├── rfm_clustering.ipynb
+│   └── model_training.ipynb
+├── src/
+│   ├── preprocess.py
+│   └── train_model.py
+├── models/
+│   ├── xgb_model.pkl
+│   └── scaler.pkl
+├── docs/
+│   └── project_documentation.pdf
+├── README.md
+├── requirements.txt
+└── LICENSE
+
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run `rfm_clustering.ipynb` to preprocess data.
